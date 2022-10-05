@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/chlouzada/ts-lib/issues"
   },
-  "homepage": "https://github.com/chlouzada/ts-lib#readme"
+  "homepage": "https://github.com/chlouzada/ts-lib#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.25.0",
+    "eslint": "^8.24.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.4",
+    "vitest": "^0.23.4"
+  }
 }
