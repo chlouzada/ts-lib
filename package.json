@@ -10,7 +10,8 @@
     "prettier": "prettier --write .",
     "version": "changeset",
     "prerelease": "npm run test && npm run build",
-    "release": "changeset version && changeset publish"
+    "release": "changeset version && changeset publish",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -30,10 +31,14 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-xo": "^0.42.0",
     "eslint-config-xo-typescript": "^0.53.0",
-    "husky": "^8.0.1",
+    "husky": "^8.0.0",
+    "nano-staged": "^0.8.0",
     "prettier": "^2.7.1",
     "tsup": "^6.2.3",
     "typescript": "^4.8.4",
     "vitest": "^0.23.4"
+  },
+  "nano-staged": {
+    "*.{js,ts,json}": "prettier --write"
   }
 }
