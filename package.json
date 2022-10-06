@@ -1,13 +1,16 @@
 {
-  "name": "ts-lib",
+  "name": "@chlou/ts-lib",
   "version": "0.0.0",
   "description": "ts lib template",
   "main": "index.js",
   "scripts": {
-    "test": "vitest",
+    "dev": "vitest",
+    "test": "vitest run",
     "build": "tsup src/index.ts --format cjs --dts",
     "prettier": "prettier --write .",
-    "lint": "xo"
+    "version": "changeset",
+    "prerelease": "npm run test && npm run build",
+    "release": "changeset version && changeset publish"
   },
   "repository": {
     "type": "git",
