@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest",
     "build": "tsup src/index.ts --format cjs --dts",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "lint": "xo"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,12 @@
   "homepage": "https://github.com/chlouzada/ts-lib#readme",
   "devDependencies": {
     "@changesets/cli": "^2.25.0",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
     "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-xo": "^0.42.0",
+    "eslint-config-xo-typescript": "^0.53.0",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "tsup": "^6.2.3",
