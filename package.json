@@ -6,9 +6,9 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "vitest",
+    "dev": "tsup --watch",
     "test": "vitest run",
-    "build": "tsup src/index.ts --format cjs --dts",
+    "build": "tsup",
     "prettier": "prettier --write .",
     "version": "changeset",
     "prerelease": "npm run test && npm run build",
