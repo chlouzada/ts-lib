@@ -6,7 +6,7 @@ specifiers:
   '@typescript-eslint/parser': 5.42.1
   eslint: 8.27.0
   eslint-config-prettier: 8.5.0
-  husky: 8.0.1
+  husky: 8.0.2
   nano-staged: 0.8.0
   prettier: 2.7.1
   tsup: 6.4.0
@@ -19,7 +19,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
   eslint: 8.27.0
   eslint-config-prettier: 8.5.0_eslint@8.27.0
-  husky: 8.0.1
+  husky: 8.0.2
   nano-staged: 0.8.0
   prettier: 2.7.1
   tsup: 6.4.0_typescript@4.8.4
@@ -1624,8 +1624,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /husky/8.0.1:
-    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+  /husky/8.0.2:
+    resolution: {integrity: sha512-Tkv80jtvbnkK3mYWxPZePGFpQ/tT3HNSs/sasF9P2YfkMezDl3ON37YN6jUUI4eTg5LcyVynlb6r4eyvOmspvg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
