@@ -9,7 +9,7 @@ specifiers:
   husky: 8.0.2
   nano-staged: 0.8.0
   prettier: 2.7.1
-  tsup: 6.4.0
+  tsup: 6.5.0
   typescript: 4.9.3
   vitest: 0.25.2
 
@@ -22,7 +22,7 @@ devDependencies:
   husky: 8.0.2
   nano-staged: 0.8.0
   prettier: 2.7.1
-  tsup: 6.4.0_typescript@4.9.3
+  tsup: 6.5.0_typescript@4.9.3
   typescript: 4.9.3
   vitest: 0.25.2
 
@@ -2764,8 +2764,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tsup/6.4.0_typescript@4.9.3:
-    resolution: {integrity: sha512-4OlbqIK/SF+cJp0mMqPM2pKULvgj/1S2Gm3I1aFoFGIryUOyIqPZBoqKkqVQT6uFtWJ5AHftIv0riXKfHox1zQ==}
+  /tsup/6.5.0_typescript@4.9.3:
+    resolution: {integrity: sha512-36u82r7rYqRHFkD15R20Cd4ercPkbYmuvRkz3Q1LCm5BsiFNUgpo36zbjVhCOgvjyxNBWNKHsaD5Rl8SykfzNA==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
